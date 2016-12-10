@@ -1,17 +1,22 @@
 {
-  "name": "test",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "scripts": {
-    "test": "npm test"
-  },
-  "author": "manikanta@live.in",
-  "license": "ISC",
-  "dependencies": {
-    "body-parser": "^1.15.2",
-    "express": "^4.14.0",
-    "hbs": "^4.0.1",
-    "mongoose": "^4.7.2"
-  }
+    "name": "test",
+    "version": "1.0.0",
+    "description": "TestDesk 2.0 for testing packages",
+    "main": "app.js",
+    "scripts": {
+        "test": "npm test",
+        "start": "node app.js"
+    },
+    "author": "manikanta@live.in",
+    "license": "ISC",
+    "private": true,
+    "engines": {
+        "node": ">=6.8.1"
+    },
+    "dependencies": {
+        "body-parser": "^1.15.2",
+        "express": "^4.14.0",
+        "hbs": "^4.0.1",
+        "mongoose": "^4.7.2"
+    }
 }
